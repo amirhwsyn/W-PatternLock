@@ -100,7 +100,7 @@ fun WPatternLock(
                         }
                     }
                     MotionEvent.ACTION_MOVE -> {
-                        if (PROGRESS) LINE_PREVIEW_END = Offset(it.rawX, it.rawY)
+                        if (PROGRESS) LINE_PREVIEW_END = Offset(it.x, it.y)
                         for (dot in DOTS) {
                             if (it.x in dot.position.x - DOT_RANGE..dot.position.x + DOT_RANGE &&
                                 it.y in dot.position.y - DOT_RANGE..dot.position.y + DOT_RANGE &&
