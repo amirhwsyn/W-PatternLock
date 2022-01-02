@@ -13,17 +13,17 @@ install WPatternLock library from jitpack.io repository
 step 1 : Add the JitPack repository to your build file
 ```gradle
 allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
+    repositories {
+	...
+	maven { url 'https://jitpack.io' }
+    }
 }
 ```
 
 step 2 : Add WPatternLock the dependency
 ```gradle
 dependencies {
-	implementation 'com.github.amirhwsyn:WPatternLock:5.0.0'
+    implementation 'com.github.amirhwsyn:WPatternLock:5.0.0'
 }
 ```
 ## Usage
