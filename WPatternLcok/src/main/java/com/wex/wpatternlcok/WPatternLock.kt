@@ -200,11 +200,8 @@ fun WPatternLock(
                         LINE_PREVIEW_END = Offset(0f, 0f)
                         LINES = arrayListOf()
                         CONNECTED_DOTS = arrayListOf()
-                        if (PROGRESS) {
-                            callback.onEnd(PROGRESS_KEY)
-                            if (key == PROGRESS_KEY) callback.onCorrect() else callback.onWrong()
-                            PROGRESS_KEY = arrayListOf()
-                        }
+                        callback.onEnd(PROGRESS_KEY, key == PROGRESS_KEY)
+                        PROGRESS_KEY = arrayListOf()
                     }
                 }
                 true

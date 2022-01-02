@@ -22,7 +22,15 @@ class MainActivity : ComponentActivity() {
                         lineColor = Color.White,
                         lineStroke = 12f,
                         callback = object : WPatternLockCallback {
+                            override fun onStart() {
 
+                            }
+                            override fun onProgress(index: Int) {
+
+                            }
+                            override fun onEnd(result: ArrayList<Int>, isCorrect:Boolean) {
+
+                            }
                         }
                     )
             }
