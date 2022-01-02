@@ -15,12 +15,12 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 
-private data class DOT(
+data class DOT(
     val id: Int,
     val position: Offset
 )
 
-private data class LINE(
+data class LINE(
     val start: Offset,
     val end: Offset
 )
