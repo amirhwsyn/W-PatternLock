@@ -6,6 +6,11 @@ android jetpack compose pattern lock library
 [![](https://jitpack.io/v/amirhwsyn/WPatternLock.svg)](https://jitpack.io/#amirhwsyn/WPatternLock)
 
 [![](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
+
+- easy to use
+- customizable
+- beautiful design
+
 ## Installation
 
 install WPatternLock library from jitpack.io repository
