@@ -1,5 +1,5 @@
 
-# WPatternLock
+# W-PatternLock
 
 android jetpack compose pattern lock library
 
