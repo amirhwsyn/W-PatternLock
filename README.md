@@ -26,7 +26,7 @@ allprojects {
 }
 ```
 
-step 2 : Add WPatternLock the dependency
+step 2 : Add W-PatternLock the dependency
 ```gradle
 dependencies {
     implementation 'com.github.amirhwsyn:W-PatternLock:6.0.0'
