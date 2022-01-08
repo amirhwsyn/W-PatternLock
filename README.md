@@ -34,7 +34,7 @@ dependencies {
 ```
 ## Usage
 
-Use WPatternLock in composeable block
+Use W-PatternLock in composeable block
 
 ```kotlin
 WPatternLock(
