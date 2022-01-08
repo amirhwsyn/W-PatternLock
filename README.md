@@ -1,5 +1,6 @@
+<img src="https://drive.google.com/uc?export=download&id=1pZRLxdSV3ndfkO-kerkpm3kLVt7eHySH" width="500" align="right">
 
-# W-PatternLock
+# W-PatternLock             
 
 android jetpack compose pattern lock library
 
@@ -10,7 +11,7 @@ android jetpack compose pattern lock library
 - easy to use
 - customizable
 - beautiful design
-
+ 
 ## Installation
 
 install WPatternLock library from jitpack.io repository
